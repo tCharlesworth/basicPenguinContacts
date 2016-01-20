@@ -1,0 +1,66 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: gray;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.new-penguin {
+    position: fixed;
+    right: 40px;
+    top: 100px;
+    border: thin solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.new-penguin h3 {
+    margin-top: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.penguin-card {
+    width: 400px;
+    border: thin solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    background: #fff;
+}
+
+.penguin-card p {
+    margin: 0;
+    /*background: dodgerblue;*/
+    padding: 3px;
+    padding-left: 20px;
+}
+
+.penguin-card ul {
+    padding: 20px;
+    margin: 0;
+}
+
+.page-wrapper {
+    width: 80%;
+    float: left;
+    padding-left: 20%;
+}
