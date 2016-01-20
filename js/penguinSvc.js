@@ -1,5 +1,5 @@
 angular.module('penguin').service('penguinSvc', function($firebaseObject, $firebaseArray) {
-   var url = 'https://penguin-contacts.firebaseio.com/';
+   var url = '<<YOUR_FIREBASE_URL_HERE>>';
    
    var listRef = new Firebase(url+'penguins');
    
